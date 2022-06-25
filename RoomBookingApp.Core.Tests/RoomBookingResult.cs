@@ -1,6 +1,6 @@
 ﻿namespace RoomBookingApp.Core
 {
-    internal class RoomBookingResult
+    internal class RoomBookingResult : RoomBookingRequest
     {
     }
 }
