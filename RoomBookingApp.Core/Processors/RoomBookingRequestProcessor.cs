@@ -1,6 +1,7 @@
 ﻿using System;
+using RoomBookingApp.Core.Models;
 
-namespace RoomBookingApp.Core
+namespace RoomBookingApp.Core.Processors
 {
     public class RoomBookingRequestProcessor
     {
@@ -8,7 +9,7 @@ namespace RoomBookingApp.Core
         {
         }
 
-        internal RoomBookingResult BookRoom(RoomBookingRequest bookingRequest)
+        public RoomBookingResult BookRoom(RoomBookingRequest bookingRequest)
         {
             return new RoomBookingResult
             {

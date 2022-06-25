@@ -1,9 +1,12 @@
-﻿using System;
+﻿using RoomBookingApp.Core.Models;
+using RoomBookingApp.Core.Processors;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xunit;
+
 
 namespace RoomBookingApp.Core
 {
@@ -30,7 +33,6 @@ namespace RoomBookingApp.Core
             Assert.Equal(request.FullName, result.FullName);
             Assert.Equal(request.Email, result.Email);
             Assert.Equal(request.Date, result.Date);
-
 
         }
 
